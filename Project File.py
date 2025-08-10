@@ -8,9 +8,7 @@ while True:
         while True:
             print("MATHS MENU")
             print("---- ----")
-            print("""1.1) Average of the numbers\n1.2) Temperature 
-Conversion\n1.3) BMI Calculation\n1.4) Statistical 
-Calculation\n1.5) Human Development Index Calculation""")
+            print("""1.1) Average of the numbers\n1.2) Temperature Conversion\n1.3) BMI Calculation\n1.4) Statistical Calculation\n1.5) Human Development Index Calculation""")
             b = float(input("\nEnter the Choice: "))
             
             if b == 1.1:
@@ -309,3 +307,4 @@ Calculation\n1.5) Human Development Index Calculation""")
                 print("Enter the Correct Choice\nHeading Back to Games Menu")
     elif a == 3:
         exit()
+
